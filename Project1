@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+    <style>
+        /* Dropdown Button */
+.dropbtn {
+  background-color: #a68fc4;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  float:right;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #d880b3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(170, 184, 223, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ce8ac8;}
+.textalign{
+text-align:center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#title{
+content:"Hayao Miyazaki";
+}
+#h1a:before{
+content:"Hayao Miyazaki";
+margin:10px 10px 30px 10px;
+font-size:50px;
+}
+#p:after{ 
+content:"Japan's Walt Disney";
+margin:10px 10px 30px 10px;
+}
+.header{
+background-color: rgb(245, 245, 245);
+margin:0px 30px 0px 30px;
+padding: 0px 30px 15px 30px;
+}
+.imgback{
+background-color: rgb(214, 214, 214);
+margin:55px 30px 0px 30px;
+padding: 20px 30px 15px 30px;
+}
+.boldtext{
+margin-top: auto;
+margin-bottom: auto;
+}
+.ulalign{
+    text-align:left; 
+    margin-left: 20%;
+    padding: 20px 0px 20px 0px;
+  
+}
+#img-div{
+background-image:"C:\Users\diamo\Downloads\miyazaki.jpg";
+background-repeat:no-repeat;
+height:50%;
+width:50%;
+display: block;
+margin:50px;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+border-radius:10%;
+}
+img:hover{
+opacity:40%;
+
+}
+.italictext{
+font-style:italic;
+}
+.timeline{
+   margin: 30px 300px 30px 300px;
+}
+ </style>
+<title>Hayao Miyazaki</title>
+<div id = "main">
+<div class ="header">
+<div class ="textalign">
+<div id ="h1a"></div>
+<br>
+<div id = "p"></div>
+<div class="dropdown">
+    <button class="dropbtn">Movies</button>
+    <div class="dropdown-content">
+      <a href="#">Totoro</a>
+      <a href="#">Ponyo</a>
+      <a href="#">Spirited Away</a>
+    </div>
+  </div>
+<div class = "imgback">
+    <a href ="https://en.wikipedia.org/wiki/Hayao_Miyazaki" target="_blank"><img id = "img-div"src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg/220px-Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg"></img></a>
+<footer class ="textalign">Hayao Miyazaki, pictured here, has directed films since 1979</footer>
+</div>
+<div class = "timeline">
+<h2>Here's a time line of Miyazaki's films:</h2>
+<div class ="ulalign">
+<ul>
+    <li><span class ="boldtext"><strong>1979</strong> - The Castle of Cagliostro</span></li>
+<li><span class ="boldtext"><strong>1984</strong> - Nausicaä of the Valley of the Wind</span></li>
+<li><span class ="boldtext"><strong>1986</strong> - Castle in the Sky</span><</li>
+    <li><span class ="boldtext"><strong>1988</strong> - My Neighbor Totoro</span></li>
+        <li><span class ="boldtext"><strong>1989</strong> - Kiki's Delivery Service</span></li>
+ </ul>
+</div>
+<p class = "italictext">“You must see with eyes unclouded by hate. See the good in that which is evil, and the evil in that which is good. Pledge yourself to neither side, but vow instead to preserve the balance that exists between the two.”
+    ― Hayao Miyazaki</p>
+<footer>If you have time, you should read more about this incredible human being on his <a href ="https://en.wikipedia.org/wiki/Hayao_Miyazaki" target="_blank">Wikipedia</a> entry.</footer>
+</div>
+</div>
+</div>
+</div>
+
+</html>
